@@ -6,9 +6,9 @@ using namespace std;
 int main() {
     // Example matrix
     vector<vector<int>> matrix = {
-        {1, 2, 3},
-        {4, 5, 6},
-        {7, 8, 9}
+        {1, 0, 0},
+        {1, 1, 0},
+        {0, 1, 0}
     };
 
     int rows = matrix.size();
@@ -34,7 +34,8 @@ int main() {
 
                     // Check whether the neighbour is inside the matrix
                     if (newRow >= 0 && newRow < rows &&
-                        newCol >= 0 && newCol < cols) {
+                        newCol >= 0 && newCol < cols &&
+                        matrix[newRow][newCol] == 1) {  // If the neighbour is 1; count++ (save it in neighborCount 
 
                         neighborCount[r][c]++;
                     }
