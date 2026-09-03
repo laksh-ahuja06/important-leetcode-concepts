@@ -1,4 +1,4 @@
-### All the concepts of data structures i need to practice
+# All the concepts of data structures i need to practice
 
 ## 1. combination-of-k-in-a-vector.cpp
    
