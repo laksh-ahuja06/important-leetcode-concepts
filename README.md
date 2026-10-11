@@ -14,5 +14,13 @@ Checking all the 8 neighbours of an indice in a matrix :-
 The matrix is predefined for now, and the neighbour count is stored in another matrix vector<vector<int>> neighbourCount (rows, vector<int>(cols, 0));
 Also, check for constraint every time such that, r and c is a part of matrix constraint.
 
+<br>
+
+## 3. CombinationSum.cpp
+
+Use recursion to find all the possible combination which adds up to a specific target (duplicates are allowed)
+
+<br>
+
 
 
